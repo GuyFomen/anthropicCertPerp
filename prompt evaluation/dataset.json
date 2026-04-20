@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Extract the AWS region from an S3 URI in the format 's3://bucket-name/key' and return it, defaulting to 'us-east-1' if not explicitly specified in the URI",
+    "format": "python",
+    "solution_criteria": "Function should parse S3 URIs, extract region information if present, and return the correct AWS region. Should handle standard S3 and S3-compatible URIs."
+  },
+  {
+    "task": "Create a JSON configuration object for an AWS Lambda function that specifies runtime as 'python3.11', timeout of 60 seconds, memory of 256 MB, and environment variables for DB_HOST and API_KEY",
+    "format": "json",
+    "solution_criteria": "JSON should be valid, include all specified properties with correct AWS Lambda configuration structure, and properly format environment variables."
+  },
+  {
+    "task": "Create a regular expression that matches valid AWS IAM role ARN formats (arn:aws:iam::account-id:role/role-name), where account-id is a 12-digit number and role-name contains alphanumeric characters, hyphens, and underscores",
+    "format": "regex",
+    "solution_criteria": "Regex should match valid IAM role ARNs, reject invalid formats, correctly validate 12-digit account IDs, and allow valid role name characters while rejecting invalid ones."
+  }
+]

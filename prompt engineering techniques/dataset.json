@@ -1,0 +1,48 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Muscle gain and strength improvement through weightlifting",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan includes 4-5 meals distributed throughout the day with adequate protein (minimum 1.6g per kg bodyweight)",
+      "Pre and post-workout nutrition is specified with timing and macronutrient composition",
+      "Plan is presented in compact format (1 day only) with clear meal times and food items"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-focused athlete (weightlifter) emphasizing protein intake, meal distribution for muscle recovery, and pre/post-workout nutrition"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training with a 20-mile run scheduled for afternoon",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan includes 4-5 eating occasions with carbohydrate-dense meals totaling 3000-3500 calories",
+      "Pre-run meal (2-3 hours before afternoon run) and post-run recovery meal are specified with appropriate timing",
+      "All meals are compact and presented in a single-day format"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring calorie-dense, carbohydrate-heavy meals with specific timing around training"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "72 kg",
+      "goal": "Maintain energy and performance for competitive soccer match in the evening",
+      "restrictions": "Vegan (no animal products)"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals plus pre-game snack for a single day",
+      "All meals and snacks are vegan with adequate plant-based protein sources (legumes, tofu, nuts, seeds)",
+      "Plan provides sustained energy appropriate for an athlete with evening match performance goal",
+      "Plan is concise and practical to execute"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific dietary constraint (vegan soccer player) requiring plant-based protein sources while maintaining energy levels for competitive performance"
+  }
+]
